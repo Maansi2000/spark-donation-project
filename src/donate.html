@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Payment Gateway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ------Navigation to Go Back to Home Page--------  -->
+    <nav class="flex">
+        <a href="home.html"class="btn_nav" id="btn_donate">Go Back</a>
+    </nav>
+    <section id="faq">
+        <!-- -----------FAQ Heading------------------ -->
+        <h1 class="heading" id="faq_heading">Frequently Asked Questions</h1>
+        <div id="faq_content">
+            <!-- -----FAQ First Q/A Block-------------------- -->
+            <details class="faq_container">
+                <summary class="faq_question">Is this donation tax deductible?</summary>Yes, to claim exemption you are advised to keep the donation receipt handy.
+            </details>
+             <!-- -----FAQ Second Q/A Block----------------- -->
+            <details class="faq_container">
+                <summary class="faq_question">Can we make a payment via any other means?</summary>No, only use the payment gateway on the website. We don't ask for or accept payment through any other route.
+            </details>
+             <!-- -----FAQ Third Q/A Block------------------- -->
+            <details class="faq_container">
+                <summary class="faq_question">Will I get membership upon donation?</summary>No, that is a different process altogether which depends upon your volunteer activities.
+            </details>
+        </div>
+    </section>
+    <div id="payment">
+        <h2 id="pay-prompt">Click on 'Pay Now' below to proceed with the transaction.</h2>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_ImJc17HHZ1cxyi" async> </script> </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "sparkfoundation",
+  "version": "1.0.0",
+  "description": "internship project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maansi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

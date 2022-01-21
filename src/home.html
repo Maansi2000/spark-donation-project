@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark Foundation Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- -----Navigation Bar to Take to Donation Page-------- -->
+    <nav class="flex">
+        <div class="imp_statement">
+            Become a part of our journey as we continue to strive to build creative opportunities for young minds by contributing today. 
+        </div>
+        <a href="donate.html" class="btn_nav">Click to Donate</a>
+    </nav>
+    <!-- ----Witch Modal to Inform about Work-in-Progress--- -->
+    <div class="modal" id="witch__pop_up">
+        <div class="modal-header">
+            <button class="modal-close" id="witch_close"> &times; </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-content">
+                Hola visitors! witch MJ pops in front of you to let you know that this page is in test mode at the moment meaning no payment shall be processed, but fingers crossed more functionalities might be added later :)
+            </div>
+            <div class="img-container">
+                <img src="image/witch.svg" alt="Witch-Image" id="witch-img">
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <main class="main_container">
+        <!-- -----------Our Mission Heading--------- -->
+        <h1 class="heading" id="main_heading">Our Mission</h1>
+        <!-- ----------Our Mission contentBox with img-container & text-container Begins Here------ -->
+        <section class="flex contentBox">
+            <div class="text-container">
+                <h2 class="subheading">Let the creativity of children blossom!</h2>
+                <div class="subcontent">
+                    We conduct workshops followed by competitions at zonal levels. Most importantly we provide our own equipments and prepping material to the poor kids so as to create an inclusive space and high learning curve for all. 
+                </div>
+            </div>
+                 <div class="img-container">
+                    <img src="image/flying kite.svg" alt="kite-Image" id="kite-img">
+                </div>
+            </div>
+        </section>
+        <h2 class="heading" id="small_heading">Program Activities</h2>
+        <div class="subcontent" id="activity_tagline">
+            We have had the privilege to arrange skill bootcamps for the financially backward as a part of government associations and NGO partnership programs in the following domains.
+        </div>
+        <div class="flex" id="cardBox">
+            <div class="card" id="activity_card1">Art</div>
+            <div class="card" id="activity_card2">Sports</div>
+            <div class="card" id="activity_card3">Coding</div>
+            <div class="card" id="activity_card4">Dance</div>
+            <div class="card" id="activity_card5">Music</div>
+            <div class="card" id="activity_card6">Quiz</div>
+        </div>
+    </main>
+    <div class="query">
+        <img src="image/googley-eye-birds.svg" alt="Bird" id="bird">
+        <div id="blackboard">
+            <h3>Like what we do & wish to volunteer!</h3>
+             Write to us at volunteer@xyz.com to know more.
+        </div>
+    </div>
+    <footer>&copy;Copyright reserved</footer>
+    <script src="script.js"></script>
+</body>
+</html>
